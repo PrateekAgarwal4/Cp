@@ -10,7 +10,7 @@ string removeDup(string s)
 	}
 	
 	char ch=s[0];
-	string ans=removeDup(s.substr(1));
+	string ans=removeDup(s.substr(1)); // substr removes the particular element from the string..
 	
 	if(ch==ans[0])
 	{
